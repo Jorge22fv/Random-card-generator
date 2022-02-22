@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 150px;
+}
+.suit1 {
+  float: left;
+  font-size: 70px;
+  margin-left: 10px;
+}
+
+.suit2 {
+  float: right;
+  transform: rotate(180deg);
+  font-size: 70px;
+  margin-right: 10px;
+}
+
+.mix {
+  margin: auto;
+  font-size: 70px;
+}
+
+#btn {
+  background-color: rgb(214, 68, 31);
+  margin-right: 30px;
+  border-radius: 10px;
+  border: none;
+  float: right;
+  color: white;
+}
